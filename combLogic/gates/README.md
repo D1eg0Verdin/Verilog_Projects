@@ -6,13 +6,14 @@ This was my first ever verilog project.
 ---
 
 ## **File Structure**
-
+```
 comblogic/
 └── gates/
-├── gates.v          # Verilog module implementing AND/OR/XOR
-├── tb_design.cpp    # C++ testbench using Verilator
-├── gates.vcd        # Waveform output (generated after simulation)
-└── README.md        # This file
+    ├── gates.v         # Verilog module implementing AND/OR/XOR
+    ├── tb_design.cpp   # C++ testbench using Verilator
+    ├── gates.vcd       # Waveform output (generated after simulation)
+    └── README.md       # This file
+```
 ---
 
 ## **Module Description**
